@@ -166,12 +166,12 @@ body {
 }
 
 a {
-  color: #367380;
+  color: #0088cc;
   text-decoration: none;
 }
 
 a:hover {
-  color: #1f434a;
+  color: #005580;
   text-decoration: underline;
 }
 
@@ -2709,31 +2709,31 @@ table .span24 {
 .dropdown-submenu:hover > a {
   color: #ffffff;
   text-decoration: none;
-  background-color: #367380;
-  background-color: #336d79;
-  background-image: -moz-linear-gradient(top, #367380, #2e636e);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#367380), to(#2e636e));
-  background-image: -webkit-linear-gradient(top, #367380, #2e636e);
-  background-image: -o-linear-gradient(top, #367380, #2e636e);
-  background-image: linear-gradient(to bottom, #367380, #2e636e);
+  background-color: #0088cc;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
   background-repeat: repeat-x;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff367380', endColorstr='#ff2e636e', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
 }
 
 .dropdown-menu .active > a,
 .dropdown-menu .active > a:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #367380;
-  background-color: #336d79;
-  background-image: linear-gradient(to bottom, #367380, #2e636e);
-  background-image: -moz-linear-gradient(top, #367380, #2e636e);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#367380), to(#2e636e));
-  background-image: -webkit-linear-gradient(top, #367380, #2e636e);
-  background-image: -o-linear-gradient(top, #367380, #2e636e);
+  background-color: #0088cc;
+  background-color: #0081c2;
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
   background-repeat: repeat-x;
   outline: 0;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff367380', endColorstr='#ff2e636e', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
 }
 
 .dropdown-menu .disabled > a,
@@ -3069,17 +3069,17 @@ button.close {
 .btn-primary {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #366980;
-  *background-color: #365a80;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#367380), to(#365a80));
-  background-image: -webkit-linear-gradient(top, #367380, #365a80);
-  background-image: -o-linear-gradient(top, #367380, #365a80);
-  background-image: linear-gradient(to bottom, #367380, #365a80);
-  background-image: -moz-linear-gradient(top, #367380, #365a80);
+  background-color: #006dcc;
+  *background-color: #0044cc;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc);
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
   background-repeat: repeat-x;
-  border-color: #365a80 #365a80 #1f344a;
+  border-color: #0044cc #0044cc #002a80;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff367380', endColorstr='#ff365a80', GradientType=0);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
   filter: progid:dximagetransform.microsoft.gradient(enabled=false);
 }
 
@@ -3089,13 +3089,13 @@ button.close {
 .btn-primary.disabled,
 .btn-primary[disabled] {
   color: #ffffff;
-  background-color: #365a80;
-  *background-color: #2e4e6e;
+  background-color: #0044cc;
+  *background-color: #003bb3;
 }
 
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #27415c \9;
+  background-color: #003399 \9;
 }
 
 .btn-warning {
@@ -3298,7 +3298,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-link {
-  color: #367380;
+  color: #0088cc;
   cursor: pointer;
   border-color: transparent;
   -webkit-border-radius: 0;
@@ -3307,7 +3307,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-link:hover {
-  color: #1f434a;
+  color: #005580;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3468,7 +3468,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #365a80;
+  background-color: #0044cc;
 }
 
 .btn-group.open .btn-warning.dropdown-toggle {
@@ -3680,7 +3680,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list > .active > a:hover {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #367380;
+  background-color: #0088cc;
 }
 
 .nav-list [class^="icon-"] {
@@ -3773,7 +3773,7 @@ input[type="submit"].btn.btn-mini {
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
   color: #ffffff;
-  background-color: #367380;
+  background-color: #0088cc;
 }
 
 .nav-stacked > li {
@@ -3840,13 +3840,13 @@ input[type="submit"].btn.btn-mini {
 
 .nav .dropdown-toggle .caret {
   margin-top: 6px;
-  border-top-color: #367380;
-  border-bottom-color: #367380;
+  border-top-color: #0088cc;
+  border-bottom-color: #0088cc;
 }
 
 .nav .dropdown-toggle:hover .caret {
-  border-top-color: #1f434a;
-  border-bottom-color: #1f434a;
+  border-top-color: #005580;
+  border-bottom-color: #005580;
 }
 
 /* move down carets for tabs */
@@ -5109,7 +5109,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 a.thumbnail:hover {
-  border-color: #367380;
+  border-color: #0088cc;
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
      -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
           box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
